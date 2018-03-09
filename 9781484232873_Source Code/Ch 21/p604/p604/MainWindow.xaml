@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfAwait.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Title="Process and Cancel" Height="150 " Width="250">
+    <StackPanel>
+        <Button Name="btnProcess" Width="100" Click="btnProcess_Click"
+HorizontalAlignment="Right" Margin="10,15,10,10">Process</Button>
+        <Button Name="btnCancel" Width="100" Click="btnCancel_Click"
+HorizontalAlignment="Right" Margin="10,0">Cancel</Button>
+        <ProgressBar Name="progressBar" Height="20" Width="200" Margin="10"
+HorizontalAlignment="Right"/>
+    </StackPanel>
+</Window>

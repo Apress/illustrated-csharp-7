@@ -1,0 +1,12 @@
+﻿<Window x:Class="SimpleWorker.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Title="MainWindow" Height="150 " Width="250">
+    <StackPanel>
+        <ProgressBar Name="progressBar" Height="20" Width="200" Margin="10"/>
+        <Button Name="btnProcess" Width="100" Click="btnProcess_Click"
+Margin="5">Process</Button>
+        <Button Name="btnCancel" Width="100" Click="btnCancel_Click"
+Margin="5">Cancel</Button>
+    </StackPanel>
+</Window>

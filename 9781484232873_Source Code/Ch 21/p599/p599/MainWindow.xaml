@@ -1,0 +1,10 @@
+﻿<Window x:Class="MessagePump.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Title="Pump" Height="120" Width="200 ">
+    <StackPanel>
+        <Label Name="lblStatus" Margin="10,5,10,0" >Not Doing Anything</Label>
+        <Button Name="btnDoStuff" Content="Do Stuff" HorizontalAlignment="Left"
+Margin="10,5" Padding="5,2" Click="btnDoStuff_Click"/>
+    </StackPanel>
+</Window>
